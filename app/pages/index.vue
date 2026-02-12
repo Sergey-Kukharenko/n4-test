@@ -328,17 +328,13 @@ onBeforeUnmount(() => {
   letter-spacing: -0.01em;
 }
 
-/* Горизонтальная лента (десктоп) */
 .rail {
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 220px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 
-  overflow-x: auto;
+  overflow: visible;
   padding: 2px 2px 10px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
 }
 
 .rail > * {
