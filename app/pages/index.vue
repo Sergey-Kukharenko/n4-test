@@ -1,4 +1,3 @@
-<!-- pages/index.vue -->
 <template>
   <main class="page">
     <h1 class="title">Каталог</h1>

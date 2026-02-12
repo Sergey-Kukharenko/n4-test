@@ -1,4 +1,3 @@
-<!-- pages/products/[id].vue -->
 <template>
   <main class="page">
     <header class="top">
